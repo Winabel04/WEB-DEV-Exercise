@@ -18,7 +18,7 @@ include 'function2.php';
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./source/style.css">
 </head>
 
 <style>
@@ -64,7 +64,7 @@ table.table tr th:first-child {
 <body>
 <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
   <a class="navbar-brand" href="#">
-    <img src="logo.png" width="30" height="30" alt="logo">
+    <img src="./source/logo.png" width="30" height="30" alt="logo">
     Work Plan Done
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-list-4" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,7 +74,7 @@ table.table tr th:first-child {
     <ul class="navbar-nav">
         <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <img src="logo2.png" width="40" height="40" class="rounded-circle"> List - IT! Do IT!
+          <img src="./source/logo2.png" width="40" height="40" class="rounded-circle"> List - IT! Do IT!
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           <a class="dropdown-item" href="create.php"><i class="fa fa-sticky-note-o" style="font-size:30px"></i>  Create</a>
